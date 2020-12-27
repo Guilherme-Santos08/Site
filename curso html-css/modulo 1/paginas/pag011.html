@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Áudio</title>
+   <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+   <h1>Como colocar áudio em HTML5</h1>
+   <p>Para colocarmos audio precisaremos abrir a tag &lt;audio&gt;, dento dessa tag poderemos colocar alguns &lt;source&gt;. Existe 3 tipos de formato de áudio, o .mp4, .ogg e .wav. Não é recomendado usar o .wav, pois ele deixa os arquivos muito pesado</p>
+   <audio preload="metadata" controls loop>
+      <source src="../midia/happy-mistake.mp3" type="audio/mp4">
+      <source src="../midia/happy-mistake.ogg" type="audio/ogg">
+      <source src="../midia/happy-mistake.wav" type="audio/wav">
+      <p>Infelizmente seu navegador não consgue reproduzir áudio</p>
+         <a href="../conteudo/midia/happy-mistake.mp3">Clique aqui para baixar o arquivo MP3</a>
+   </audio>
+
+   <p>
+      <p>๏ metadata vai carregar apenas as informações sobre o arquivo (tamanho,
+         tempo, informações de direitos, etc)</p>
+         <p>๏ none não vai carregar absolutamente nada até que o usuário clique no botão
+           play ou um script inicie a reprodução</p>
+         <p>๏ auto (padrão) vai carregar o arquivo de áudio inteiro assim que a página for
+           carregada, mesmo que o usuário nunca aperte o play</p>
+     
+         <p>‣ O atributo controls vai apresentar o player na tela. Caso não seja colocado na tag, o controle será transparente e o usuário não poderá interagir com ele.</p>
+     
+         <p>‣ O atributo autoplay, quando inserido, vai iniciar a reprodução do áudio assim que
+         a página for carregada.</p>
+     
+         <p>‣ O atributo loop vai fazer com que o áudio seja repetido eternamente assim que
+         terminar a sua reprodução.</p>
+         <p><a href="../html-css.html">Voltar para página principal</a></p>
+   </p>
+</body>
+</html>
