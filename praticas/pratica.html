@@ -4,6 +4,39 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Pratica</title>
+   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+   <style>
+      h1 {
+         font-family: Lobster;
+      }
+
+      .tamanhoPc {/*Tamanho da imagem*/
+         width: 500px;
+      }
+      .bordaPC { /*Colocar bordar*/
+         border-color: black;
+         border-width: 6px;
+         border-style: solid;
+      }
+
+
+      .arredondaPC { /*Arredonda as borda*/
+         border-radius: 15px;
+      } 
+      
+      .larguraPc {
+         padding: 7px; /*largura entre a borda e a foto*/
+      }
+      .espacoPC{
+         margin: -15px;
+      }
+      .divPc{
+         background-color: yellow;
+         padding: 10px;
+         border-radius: 15px;
+         width: 500px;
+      }
+   </style>
 </head>
 <body>
    <h1>Nessa página colocarei tudo em prática</h1>
@@ -18,7 +51,10 @@
       <br>      
       <input type="text" placeholder="Link do produto" required>
       <button type="submit">Enviar</button>  
-<br>
    </form>
+   <br>
+   <div class="divPc">
+      <a href="#"><img class="tamanhoPc bordaPC arredondaPC larguraPc espacoPC"  src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?cs=srgb&dl=pexels-designecologist-1779487.jpg&fm=jpg" alt="computer"></a>
+   </div>
 </body>
 </html>
