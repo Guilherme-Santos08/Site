@@ -1,0 +1,27 @@
+.tamanhoPc {/*Tamanho da imagem*/
+   width: 500px;
+}
+.bordaPC { /*Colocar bordar*/
+   border-color: black;
+   border-width: 6px;
+   border-style: solid;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);;
+}
+
+.arredondaPC { /*Arredonda as borda*/
+   border-radius: 15px;
+} 
+
+.larguraPc {
+   padding: 7px; /*largura entre a borda e a foto*/
+}
+.espacoPC{
+   margin: -15px;
+}
+.divPc{
+   background-color: yellow;
+   padding: 10px;
+   border-radius: 15px;
+   width: 500px;
+   margin: auto; /*Vai centralizar automaticamente, dependendo do tamanho da sua tela.*/
+}
