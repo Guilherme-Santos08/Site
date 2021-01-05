@@ -1,0 +1,56 @@
+.animationRainbow {
+   height: 40px;
+   width: 70%;
+   background: black;
+   margin: 50px auto;
+   border-radius: 5px;
+ }
+
+ #rect {
+   animation-name: rainbow; /*Tipo de animação*/
+   animation-duration: 8s; /*Quantos segundos ela vai durar*/
+ }
+
+@keyframes rainbow { /*Regras da animação*/
+ 0%{
+   background-color: blue;
+ }
+ 50% {
+   background-color:green;
+ }
+ 100% {
+   background-color:yellow;
+ }
+}
+
+.lua{
+   /* position: fixed;
+   margin: auto;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0; */
+   width: 100px;
+   height: 100px;
+   background-color: transparent; 
+   border-radius: 50%;
+   box-shadow: 25px 10px 0px 0px blue;
+}
+
+.button-Animation { /*Configuração do botão*/
+   border-radius: 5px;
+   color: white;
+   background-color: #0F5897;
+   padding: 5px 10px 8px 10px;
+ }
+
+ .button-Animation:hover { /*Regra que vou dar ao botão*/
+   animation-name: background-color;
+   animation-duration: 500ms;
+ }
+
+ @keyframes background-color { /*Ao passar o mouse por cima do botão, ficara dessa cor por 500ms*/
+   100%{
+     background-color: #4791d0;
+   }
+ }
