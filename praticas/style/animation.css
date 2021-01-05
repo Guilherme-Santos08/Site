@@ -47,6 +47,7 @@
  .button-Animation:hover { /*Regra que vou dar ao botão*/
    animation-name: background-color;
    animation-duration: 500ms;
+   animation-fill-mode: forwards; /*Equanto eu deixar o mouse em cima do botão, ele ficara com a cor que eu determinei*/
  }
 
  @keyframes background-color { /*Ao passar o mouse por cima do botão, ficara dessa cor por 500ms*/
