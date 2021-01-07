@@ -8,7 +8,7 @@ body{
 }
 #apresentacao{
    background-color: white;
-   width: 850px;
+   width: 750px;
    margin: auto;
    padding: 10px;
 }
@@ -17,6 +17,17 @@ H1{
    text-align: center;
    color: black;
    font-size: 1.5em;
+}
+
+.container{
+   display: flex;
+   justify-items: center;
+   align-items: center;
+}
+
+.texto {
+   max-width: 600px;
+   margin-left: 40px;
 }
 
 p {
@@ -37,6 +48,10 @@ a:hover{
    color: rgb(63, 64, 66);
 }
 
+.fotogui{
+   width: 200px;
+}
+
 @media (max-width: 750px) {
    #apresentacao{
       background-color: white;
@@ -45,4 +60,7 @@ a:hover{
       padding: 10px;
       box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
    } 
+   .fotogui{
+      width: 45px;
+   }
 }
