@@ -1,5 +1,5 @@
 .tamanhoPc {/*Tamanho da imagem*/
-   width: 500px;
+   width: 250px;
 }
 .bordaPC { /*Colocar bordar*/
    border-color: black;
@@ -22,6 +22,7 @@
    background-color: yellow;
    padding: 10px;
    border-radius: 15px;
-   width: 500px;
-   margin: auto; /*Vai centralizar automaticamente, dependendo do tamanho da sua tela.*/
+   width: 250px;
+   margin: left; /*O auto vai centralizar automaticamente, dependendo do tamanho da sua tela.*/
+   margin-top: 1.5em;
 }

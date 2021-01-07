@@ -15,8 +15,22 @@ H1{
 
 p {
    text-align: justify;
+   line-height: 0.9;
+   position: relative;
+}
+a{
+   color: rgb(4, 59, 110)
+}
+a:hover{
+   color: rgb(63, 64, 66);
 }
 
+#back{
+   color: rgb(26, 29, 187);
+}
+#back:hover{
+   color: rgb(11, 1, 39);
+}
 main {
    background-color: white;
    width: 560px;
@@ -32,8 +46,5 @@ main {
       margin: auto;
       padding: 10px;
       box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
-   }
-   .sobre-eu{
-      text-align: justify;
    }
 }
