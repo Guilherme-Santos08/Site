@@ -7,8 +7,9 @@
  }
 
  #rect {
-   animation-name: rainbow; /*Tipo de animação*/
-   animation-duration: 8s; /*Quantos segundos ela vai durar*/
+   animation-name: rainbow; /*Nome da animação*/
+   animation-duration: 5s; /*Quantos segundos ela vai durar*/
+   animation-iteration-count: infinite; /*Deixar infinito*/
  }
 
 @keyframes rainbow { /*Regras da animação*/
