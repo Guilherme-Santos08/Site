@@ -19,7 +19,7 @@ H1{
    font-size: 1.5em;
 }
 
-.container{
+header .container{
    display: flex;
    justify-items: center;
    align-items: center;
